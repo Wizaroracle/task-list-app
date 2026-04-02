@@ -1,0 +1,14 @@
+-  **Advanced Hooks**
+  - `useCallback`, `useMemo` (performance optimization)
+  - `useReducer` (complex state logic)
+  - `useRef` (DOM manipulation, persisting values)
+  - Custom hooks (reusable logic)
+-  **State Management**
+  - Context API (when to use vs prop drilling)
+  - Zustand or Redux Toolkit (pick one, learn deeply)
+  - Server state vs client state concept
+-  **Component Patterns**
+  - Compound components
+  - Render props
+  - Higher-Order Components (HOCs)
+  - Controlled vs uncontrolled components
