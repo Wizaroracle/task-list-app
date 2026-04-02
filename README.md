@@ -1,46 +1,52 @@
-Hooks (Deep Dive)
-✅ useState - Managing component state
+# Task Dashboard
 
-Lazy initialization (functions in useState)
-Functional updates (prev => prev + 1)
-State batching
-✅ useEffect - Side effects & lifecycle
+A comprehensive React application built to master advanced TypeScript, custom hooks, and state management patterns.
 
-Dependency arrays
-Cleanup functions (return statement)
-When effects run
-Common pitfalls (infinite loops)
-✅ useCallback - Memoizing functions
+## 🎯 Purpose
 
-Preventing unnecessary re-renders
-Stable function references
-When to use vs when NOT to use
-✅ useMemo - Memoizing values
+This project was built to deepen understanding of:
+- Advanced React Hooks (useReducer, useMemo, useCallback, custom hooks)
+- TypeScript best practices (generics, utility types, type safety)
+- State management (Context API, localStorage persistence)
+- Component composition patterns
+- Clean code architecture
 
-Expensive calculations
-Derived state
-Performance optimization
-Difference from useCallback
-✅ useReducer - Complex state management
+## ✨ Features
 
-Reducer pattern
-Actions & action types
-When to use vs useState
-Combining with Context
-✅ useRef - References & persistence
+- ✅ **CRUD Operations** - Create, read, update, and delete tasks
+- ✅ **Task Filtering** - Filter by status, priority, and search
+- ✅ **Local Storage** - Persistent data across sessions
+- ✅ **Dark Mode** - Theme toggle with persistence
+- ✅ **Type Safety** - Full TypeScript implementation
+- ✅ **Responsive Design** - Mobile-first with Tailwind CSS
+- ✅ **Custom Hooks** - Reusable logic (useLocalStorage, useDebounce, useToggle)
 
-DOM element access
-Storing mutable values without re-renders
-Previous value tracking
-useRef vs useState
-✅ useContext - Consuming context
+## 🛠️ Tech Stack
 
-Reading context values
-Avoiding prop drilling
-Performance considerations
-✅ Custom Hooks - Reusable logic
+- **Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **State Management:** Context API + useReducer
+- **Storage:** localStorage API
 
-Naming convention (use + CamelCase)
-Extracting component logic
-Composition of built-in hooks
-Testing custom hooks
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/task-dashboard.git
+
+# Navigate to project directory
+cd task-dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
