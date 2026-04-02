@@ -5,7 +5,7 @@
   - Custom hooks (reusable logic)
 -  **State Management**
   - Context API (when to use vs prop drilling)
-  - Zustand or Redux Toolkit (pick one, learn deeply)
+  - Redux Toolkit (pick one, learn deeply)
   - Server state vs client state concept
 -  **Component Patterns**
   - Compound components
