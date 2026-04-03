@@ -24,5 +24,5 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
     }
   }, [key, storedValue]); // What should trigger this effect?
 
-  return [storedValue, setStoredValue];
+  return [storedValue, setStoredValue] as const;
 }
